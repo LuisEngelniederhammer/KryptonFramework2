@@ -1,0 +1,1 @@
+Second Version of the KryptonFramework. This shall propose a native PHP API Framework for easy and fast API generation without the need of additional composer requirements, while still being set up as composer project to support the use of librarys for the developer using this.
