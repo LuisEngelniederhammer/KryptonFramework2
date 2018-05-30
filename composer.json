@@ -1,0 +1,21 @@
+{
+	"name" : "kryptonframework2",
+	"description" : "API Framework with Request Routing",
+	"type" : "Framework",
+	"homepage" : "https://ww.bridgetroll.de/",
+	"minimum-stability" : "dev",
+	"autoload" : {
+		"psr-4" : {
+			"Krypton" : "Krypton",
+			"Krypton\\Models" : "Krypton/Models"
+		}
+	},
+	"keywords" : [
+		"api",
+		"framework",
+		"url",
+		"routing",
+		"krypton",
+		"krypton2"
+	]
+}

@@ -1,5 +1,5 @@
 <?php
-
+namespace Krypton\Models;
 class Route 
 {
     private $routePath;
