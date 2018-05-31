@@ -1,9 +1,7 @@
 <?php
 namespace Krypton;
 
-use Krypton\Interfaces\Request;
-
-class Port extends Request
+class Port
 {
     private $HTTPMethod;
 
@@ -16,7 +14,6 @@ class Port extends Request
 
     public function run()
     {
-        echo 'Hello world ' . $this->HTTPMethod;
     }
 
     public function setRouter(Router $router)

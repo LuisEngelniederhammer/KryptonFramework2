@@ -1,4 +1,5 @@
 <?php
-require_once __DIR__ . '/../Krypton/Port.php';
+require_once __DIR__ . '../src/routes.php';
+$API->setRouter($Router);
 
-($Port = new \Krypton\Port())->run();
+$API->run();
